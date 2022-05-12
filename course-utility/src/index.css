@@ -1,0 +1,59 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    cursor: hand;
+}
+
+body {
+    overflow-x: auto;
+    margin: 0;
+    max-width: 100%;
+    background-color: #F7F7F7;
+}
+
+.home, .home-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-img .uog{
+  height: 100%;
+  width: 18%;
+  float: left;
+}
+
+.home-img .carleton{
+  height: 50%;
+  width: 18%;
+  float: right;
+  padding: 25px;
+}
+
+.home-search {
+    min-height: 30vh;
+}
+
+.courseblock {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+.courseblock:hover {
+  background-color: #F7F7F7;
+}
+
+.reactflow-container {
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+.graph-form {
+  width: 50%;
+}
